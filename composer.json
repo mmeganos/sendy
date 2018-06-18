@@ -1,7 +1,8 @@
 {
-    "require": {
-    		"php": "^5.5.0",
-        "ext-mbstring": "*",
-        "ext-gettext": "*"
-    }
+   "require": {
+      "ext-gettext": "*"
+    },
+    "require-dev": {
+      "heroku/heroku-buildpack-php": "*"
+   }
 }
