@@ -4,7 +4,7 @@
 	//----------------------------------------------------------------------------------//
 	
 	/*  Set the URL to your Sendy installation (without the trailing slash) */
-	define('APP_PATH', 'http://emails.realtypublishers.com');
+	define('APP_PATH', 'http://realtypublishers.herokuapp.com');
 	
 	/*  MySQL database connection credentials (please place values between the apostrophes) */
 	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
