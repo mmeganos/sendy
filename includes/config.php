@@ -8,7 +8,7 @@
 	
 	/*  MySQL database connection credentials (please place values between the apostrophes) */
 	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-	print($url)
+	print($url);
 	$dbHost =  $url["host"]; //MySQL Hostname
         $dbUser = $url["user"]; //MySQL Username
         $dbPass = $url["pass"]; //MySQL Password
